@@ -1,0 +1,21 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+ "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+
+<validators>
+	<field name="contact.name">
+		<field-validator type="requiredstring">
+			<message>The Name is required.</message>
+		</field-validator>
+	</field>
+
+	<field name="contact.address">
+		<field-validator type="requiredstring">
+			<message>Address field should not be empty.</message>
+		</field-validator>
+	</field>
+	<field name="contact.gender">
+		<field-validator type="requiredstring">
+			<message>You must select Gender!</message>
+		</field-validator>
+	</field>
+</validators>
